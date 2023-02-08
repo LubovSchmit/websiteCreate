@@ -1,0 +1,9 @@
+@import '../../../commun/styles/sass/mixins';
+
+.mainTarifsBlock {
+  @include flex(row, space-around, center, wrap);
+  background-color: burlywood;
+  border: 1px solid #787878;
+  width: 100%;
+  height: 30%;
+}

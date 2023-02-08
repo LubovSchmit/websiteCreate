@@ -1,7 +1,10 @@
 @import '../../commun/styles/sass/mixins';
 
 .mainBlock {
-  background-color: darkgoldenrod;
-  border: 1px solid yellow;
-  @include flex(row, space-around, center, wrap);
+  background-color: white;
+  border: 1px solid orange;
+  height: 90vh;
+  @include flex(column, space-around, center, wrap);
+  font-size: 14px;
+
 }
