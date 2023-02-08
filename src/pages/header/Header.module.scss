@@ -1,0 +1,34 @@
+@import '../../commun/styles/sass/mixins';
+
+.headerBlock {
+
+  border: 1px solid blue;
+  background-color: olive;
+  @include flex(row, space-around, center, wrap);
+
+  .slogan {
+    width: 200px;
+    height: 100px;
+    background-color: darksalmon;
+    margin: 10px;
+  }
+
+  .img {
+    background-color: darkgoldenrod;
+    background-image: url('../../assets/images/logoDoma.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
+
+  .info {
+    width: 200px;
+    height: 100px;
+    background-color: palevioletred;
+    margin: 10px;
+  }
+
+}
+

@@ -1,0 +1,7 @@
+@import '../../commun/styles/sass/mixins';
+
+.mainBlock {
+  background-color: darkgoldenrod;
+  border: 1px solid yellow;
+  @include flex(row, space-around, center, wrap);
+}
