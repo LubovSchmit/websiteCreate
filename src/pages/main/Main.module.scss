@@ -1,9 +1,9 @@
 @import '../../commun/styles/sass/mixins';
 
 .mainBlock {
-  background-color: white;
-  border: 1px solid orange;
-  height: 90vh;
+  background-color: #f7be68;
+/*  border: 1px solid orange;*/
+  height: 100%;
   @include flex(column, space-around, center, wrap);
   font-size: 14px;
 

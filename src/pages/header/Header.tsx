@@ -7,7 +7,10 @@ export const Header = () => {
         <div className={style.headerBlock}>
             <div className={style.slogan}> Pour vos soucis quotidiens</div>
             <div className={style.img}></div>
-            <div className={style.info}>tel/email</div>
+            <div className={style.info}>
+                <div>tel 0673518935</div>
+                <div>email: pierre.schmit@ymail.com</div>
+            </div>
         </div>
     );
 }

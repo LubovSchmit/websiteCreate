@@ -1,0 +1,32 @@
+@import '../../../../../commun/styles/sass/mixins';
+
+.tarifBlock {
+/*  background-color: #333333;*/
+  @include flex(column, space-around, center, wrap);
+
+  .img {
+    background-image: url('../../../../../assets/images/1-1.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+  }
+
+.tarifDescription {
+/*  background-color: #787878;*/
+  font-family: "Comic Sans MS",cursive;
+  font-weight: bold;
+  font-size: large;
+  width: 200px;
+  height: auto;
+}
+
+  .price {
+    /*background-color: #333333;*/
+    font-family: "Comic Sans MS",cursive;
+    font-weight: bold;
+    font-size: x-large;
+  }
+
+}

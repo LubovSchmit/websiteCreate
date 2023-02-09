@@ -1,0 +1,9 @@
+@import '../../../../commun/styles/sass/mixins';
+
+.servicesBlock {
+  background-color: darkkhaki;
+  @include flex(row, space-around, center, wrap);
+  width: 100%;
+  height: 100%;
+  margin: 20px 0;
+}

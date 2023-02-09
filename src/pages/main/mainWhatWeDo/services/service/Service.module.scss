@@ -1,0 +1,40 @@
+@import '../../../../../commun/styles/sass/mixins';
+
+.serviceBlock {
+/*  background-color: olive;*/
+  @include flex(column, space-around, center, wrap);
+
+  .img {
+    background-image: url('../../../../../assets/images/2-1.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+  }
+
+  .serviceName {
+   /* background-color: darkkhaki;*/
+    font-family: "Comic Sans MS",cursive;
+    font-weight: bold;
+    font-size: x-large;
+  }
+  .serviceDescription {
+    /*background-color: olive;*/
+    padding: 20px;
+    width: 200px;
+    height: auto;
+    margin: 10px 0;
+
+    font-family: "Comic Sans MS",cursive;
+    font-weight: bold;
+    font-size: medium;
+
+  }
+
+}
+
+
+
+
+

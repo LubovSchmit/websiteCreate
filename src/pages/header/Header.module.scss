@@ -2,15 +2,20 @@
 
 .headerBlock {
 
-  border: 1px solid blue;
+/*  border: 1px solid blue;*/
   background-color: olive;
   @include flex(row, space-around, center, wrap);
 
   .slogan {
-    width: 200px;
+    width: 400px;
     height: 100px;
-    background-color: darksalmon;
+/*    background-color: darksalmon;*/
     margin: 10px;
+    font-family: "Comic Sans MS",cursive;
+    font-weight: bold;
+    font-size: xx-large;
+    @include flex(row, space-around, center, wrap);
+    text-align: center;
   }
 
   .img {
@@ -18,16 +23,21 @@
     background-image: url('../../assets/images/logoDoma.jpg');
     background-size: cover;
     background-position: center;
-    width: 100px;
-    height: 100px;
+    width: 320px;
+    height: 200px;
     margin: 10px;
+
   }
 
   .info {
-    width: 200px;
+    width: 400px;
     height: 100px;
-    background-color: palevioletred;
+    /*background-color: palevioletred;*/
     margin: 10px;
+    @include flex(column, space-around, center, wrap);
+    font-family: "Comic Sans MS",cursive;
+    font-weight: bold;
+    font-size: x-large;
   }
 
 }
